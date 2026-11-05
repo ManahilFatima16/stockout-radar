@@ -1,0 +1,24 @@
+﻿# Big data files (download the dataset separately, see README)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Keep the saved model and the small app data so the app can run when deployed
+!models/
+!models/*.joblib
+!app/data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
